@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace TimeDash.ViewModels
 {
-    class MainViewModel : ViewModelBase
+    class PayPeriodTimeSheetViewModel : ViewModelBase
     {
-
-
-        public ViewModelBase? CurrentContentViewModel { get; set; } = new PayPeriodTimeSheetViewModel();
     }
 }

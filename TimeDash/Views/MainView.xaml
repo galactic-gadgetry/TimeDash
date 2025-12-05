@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimeDash.Views"
+        xmlns:vm="clr-namespace:TimeDash.ViewModels"
         mc:Ignorable="d"
         Title="MainView"
         Height="950" Width="1500"
@@ -11,7 +12,13 @@
     
     <Grid>
 
-        <Label Content="Main view placeholder"/>
+        <ContentControl Content="{Binding CurrentContentViewModel}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type vm:PayPeriodTimeSheetViewModel}">
+                    <local:PayPeriodTimeSheetView/>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
 
     </Grid>
     
