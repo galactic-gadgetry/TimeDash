@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeDash", "TimeDash\TimeDash.csproj", "{BC52CD44-FFF8-4ED0-BBC4-15D199A8F609}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarnetUI", "GarnetUI\GarnetUI.csproj", "{F3C13909-8B73-4B37-ADC7-71ED674D1F05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC52CD44-FFF8-4ED0-BBC4-15D199A8F609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC52CD44-FFF8-4ED0-BBC4-15D199A8F609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC52CD44-FFF8-4ED0-BBC4-15D199A8F609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C13909-8B73-4B37-ADC7-71ED674D1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C13909-8B73-4B37-ADC7-71ED674D1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C13909-8B73-4B37-ADC7-71ED674D1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C13909-8B73-4B37-ADC7-71ED674D1F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
